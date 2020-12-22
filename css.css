@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar1 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:bisque;
+    opacity: 0.8;
+    width: 100%;
+    height: 10vh;
+    z-index: 1;
+}
+.nav {
+    font-family: fantasy;
+    display: flex;
+    justify-content: right;
+    outline-style: none;
+    margin-right: 10%;
+    font-size: 20px;
+    transition: all ease 1.0s;
+}
+.nav :hover{
+    background-color: bisque;
+    color: firebrick;
+    transition: 60ms;
+     transform: scale(1.1);  
+}
+.logo{
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Vladimir Script;
+}
+a{
+    margin: 10px;
+    color: #000;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #000;
+}
+.fooldal{
+    background-size: 600px;
+    background-image: url(00.JPG);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+.fooldal .content1{
+    position: relative;
+    display: flex;
+    top: 250px;
+    left: 700px;
+}
+.fooldal .content1 h1{
+    font-family: Brush Script MT;
+    font-size: 40px;
+    color: black;
+    opacity: 0.9;
+}
+.fooldal .content2{
+    position: relative;
+    display: flex;
+    top: 210px;
+    left: 700px;
+    width: 500px;
+}
+.fooldal .content2 h3{
+    font-family: Brush Script MT;
+    font-size: 25px;
+    color: black;
+    opacity: 0.5;
+}
+.alja .cont{
+    position: relative;
+    display: flex;
+    top: 520px;
+    left: 100px;
+} 
+.alja .cont h1{
+    font-family: Palace Script MT;
+    font-size: 100px;
+    color: bisque;
+
+}
+ .portfolio-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 120vh;
+    background: #262626;
+    color: #fff;
+}
+.rolam-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    background: #262626;
+    color: #fff;
+}
+.kontakt-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+}
+.kontakt-area .kon-area {
+    padding: 5% 10%;
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+}
+.kontakt-area .kon-area a{
+    color: white;
+}
+.kontakt-area .kon-area h1{
+    font-family: fantasy;
+    font-size: 20px;
+}
+.form_input{
+    margin-bottom: 20px; 
+    border-radius: 12px;
+}
+.form_input input[type="text"]{
+    width: 250px;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 12px;
+    font-family: fantasy;
+}
+.form_input textarea{
+    width: 250px;
+    padding: 12px 20px;
+    height: 100px;
+    resize: none;
+    border-radius: 12px;
+    border: 1px solid white;
+    font-family: fantasy;
+}
+.btn a{
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid white;
+    line-height: 35px;
+    margin: 20px auto 0;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+}
+.alja{
+    background-size: 1550px;
+    background-image: url(8.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.text-part{
+    width: 70%;
+    height: 40%;
+}
+h1{
+    font-size: 30px;
+    font-family: fantasy;
+}
+p{
+    font-size: 20px;
+    font-family: fantasy;
+    line-height: 30px;   
+}
+.kontakt-area{
+    background-color: black;
+}
+.keret{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70%;
+    height: 100vh;
+}
+.keret .container{
+    background-color: #262626;
+    position: relative;
+    overflow: hidden;
+    width: 1500px;
+    height: 100vh;
+}
+.keret .container .slider{
+    position: absolute;
+    left: 0;
+    width: 500%;
+    height: 100vh;
+    animation: animate 13s linear infinite; 
+}
+.keret .container .slider .slide{
+    width: 20%;
+    height: 100%;
+    float: left;
+    height: 90vh;
+     border-radius: 20px;
+}
+.keret .container .slider .slide.slide1{
+    background: url(100.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.keret .container .slider .slide.slide2{
+    background: url(200.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.keret .container .slider .slide.slide3{
+    background: url(300.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.keret .container .slider .slide.slide4{
+    background: url(400.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.keret .container .slider .slide.slide1{
+    background: url(100.jpg);
+    background-size: cover;
+    background-position: center;
+}
+html{
+    scroll-behavior: smooth;
+}
+@keyframes animate{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+     45%{
+        left: -100%;
+    }
+     50%{
+        left: -200%;
+    }
+     70%{
+        left: -200%;
+    }
+     75%{
+        left: -300%;
+    }
+     95%{
+        left: -300%;
+    }
+     100%{
+        left: -400%;
+    }
+}
